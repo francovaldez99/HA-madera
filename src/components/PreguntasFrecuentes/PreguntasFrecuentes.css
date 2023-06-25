@@ -1,0 +1,9 @@
+.preguntas-frecuentes{
+    margin: 20px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 85vh;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.item{
+    background-color: rgba(0, 0, 0, 0.5);
+    /* padding: 0 5px ; */
+    border-radius: 2px;
+    margin-bottom: 5px;
+    max-width: 1200px;
+    min-width: 300px;
+}
+.acordeon-title{
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    height: 70px;
+}
+ .acordeon-title h2 {
+    font-size: 32px;
+ }   
+.acorden-content{
+    
+    overflow: hidden;
+    max-height: 0;
+    transition:  all 1s cubic-bezier(0,1,0,1);
+    
+}
+.acorden-content p{
+    padding:  0 20px;
+    color:#fff;
+}
+
+.active{
+   
+height: auto;
+max-height: 9999px;
+
+transition:  all 1s cubic-bezier(1,0,1,0);
+
+ 
+
+}
