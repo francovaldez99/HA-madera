@@ -17,11 +17,11 @@ function ImageSlider({slides}) {
 
    }
 
-   useEffect(() => {
-     setTimeout(() => {
-      nextSlide()
-     }, 3000);
-   }, [])
+  //  useEffect(() => {
+  //    setTimeout(() => {
+  //     nextSlide()
+  //    }, 3000);
+  //  }, [])
 
   return (
     <div className='slider-container'>

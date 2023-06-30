@@ -6,8 +6,9 @@ object-fit: cover;
 padding: 20px 0px;
 display: flex;
 flex-direction: column;
-background-color:#fb8500;
+background-color:#fcbf49;
 color:black ;
+justify-content: space-around;
 }
 .productos p,h2{
   text-align: center;

@@ -87,3 +87,14 @@ color: #fff;
   padding: 15px 16px;
   background-color: #000022;
 }
+
+@media screen and (max-width: 768px) {
+  .wsp{
+    padding: 15px 10px;
+    background-color: #000022;
+    /* width: 100%; */
+    font-size: 1em;
+
+  }
+  
+}
