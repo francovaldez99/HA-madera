@@ -19,7 +19,7 @@ function PreguntasFrecuentes() {
   return (
     <div className='area-preguntas-frecuentes'>
       <div className='preguntas-frecuentes' id='preguntas-frecuentes'>
-          <h2>PREGUNTAS FRECUENTES</h2>
+          <h2 className='preguntas-frecuentes-h2'>PREGUNTAS FRECUENTES</h2>
           <p>¿Tenes una pregunta? Tenes una respuesta, si Tenes otra consulta podes contactarte por WhatsApp con el equipo.</p>
           <Acordean data={data}/>
       </div>

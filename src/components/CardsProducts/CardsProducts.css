@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #bb3e03;
+    background-color: rgba(0, 0, 34, .85) ;
 }
 .section-cards-products h2{
     margin-top: 50px;

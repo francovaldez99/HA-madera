@@ -6,8 +6,10 @@
     justify-content: space-evenly;
     min-height: 85vh;
     text-align: center;
-  color: #fff;
+  color: #f79000;
+}.preguntas-frecuentes-h2 {
+    color: #f79000
 }
 .area-preguntas-frecuentes{
-   background-color:#023047;
+   background-color:#000022;
 }

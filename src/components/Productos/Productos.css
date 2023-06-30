@@ -6,13 +6,18 @@ object-fit: cover;
 padding: 20px 0px;
 display: flex;
 flex-direction: column;
-background-color:#fcbf49;
-color:black ;
+background-color:rgba(0, 0, 34, .75);
+color: #f79000;
+
 justify-content: space-around;
 }
-.productos p,h2{
+.productos h2{
   text-align: center;
-color: #000;
+  color: #f79000;
+}
+.productos p {
+  color: #ffff;
+
 }
 
 #conoce-nuestro-trabajo{
