@@ -19,7 +19,7 @@ function Nav() {
             </button>
                 {/* <a href="#inicio" className='nav-item'  onClick={changeStatusOpen}>Inicio</a> */}
                 <a href="#productos" className='nav-item'  onClick={changeStatusOpen}>Productos</a>
-                <a href="#contactanos" className='nav-item '  onClick={changeStatusOpen}>Nuestro trabajo</a>
+                <a href="#nuestro-trabajo" className='nav-item '  onClick={changeStatusOpen}>Nuestro trabajo</a>
 
                 <a href="#preguntas-frecuentes" className='nav-item'  onClick={changeStatusOpen}>Preguntas Frecuentes</a>
                 <a href="#contactanos" className='nav-item'  onClick={changeStatusOpen}>Contactanos</a>

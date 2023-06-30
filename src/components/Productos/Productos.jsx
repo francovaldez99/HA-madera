@@ -31,8 +31,8 @@ const images= [
 
 
   return (
-    <section className='productos'>
-     <h2 className='productos-title'>NUESTROS PRODUCTOS</h2>
+    <section className='productos' id='productos'>
+     <h2 className='productos-title' >NUESTROS PRODUCTOS</h2>
     {/* <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab pariatur nihil ullam cum omnis accusantium, dolorum eius magni, quisquam iure, ut quibusdam nostrum delectus a blanditiis harum cumque unde natus!</p> */}
     <p className='main-text'><strong>Descubre los impresionantes modelos del Kit Puerta Lista, perfectos para crear ambientes interiores excepcionales.<br /> Explora nuestra amplia gama de opciones en blanco, beige, gris, negro e incluso en elegantes patrones de madera.<br />¡Encuentra la puerta ideal para tu espacio hoy mismo!</strong>
               </p>

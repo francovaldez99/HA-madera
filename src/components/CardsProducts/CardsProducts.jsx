@@ -73,7 +73,7 @@ export default function CardsProducts() {
         ]
   return (
     <section className='section-cards-products'>
-          <h2>Conocé Nuestro trabajo</h2>
+          <h2 id='nuestro-trabajo'>Conocé Nuestro trabajo</h2>
                 <div className={`container-product ${ShowAll ? "show-products":""}`}>
                     {products &&
                         products.map((product, index)=> {

@@ -54,7 +54,7 @@ const ContactMe = () => {
     <>
       {/* <h2 className='contact-title'>Contactanos</h2> */}
       <div className="contact-container">
-        <article className="contact-area-text">
+        <article className="contact-area-text" id="contactanos"> 
           <div>
             <h2>
               ¡Contáctanos ahora mismo para recibir asesoramiento y obtener un

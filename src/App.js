@@ -16,7 +16,7 @@ function App() {
       <Productos/>
       <CardsProducts/>
       <ContactMe />
-      {/* <PreguntasFrecuentes/> */}
+      <PreguntasFrecuentes/>
       {/* <Footer/> */}
     </div>
   );
