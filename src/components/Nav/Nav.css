@@ -2,14 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 10px  ; */
-
+    padding: 10px 15px ;
+position: absolute;
+top: 0;
+width: 100%;
+z-index: 1;
  justify-content: center;
 
 }
 .nav-item{
     text-decoration: none;
-    color: black;
+    color: #fff;
 font-size: 22px;
 
 
@@ -17,6 +20,8 @@ font-size: 22px;
 .logo-img{
     width: 100px;
     margin-right: 40px;
+    border-radius: 50%;
+    mix-blend-mode: color-burn;
 }
 .nav{
     display: flex;
@@ -33,6 +38,7 @@ font-size: 22px;
     border: none;
     padding: 10px;
     display: none;
+    color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -98,7 +104,7 @@ font-size: 22px;
 }
 }
 .cta-button {
-    background-color: black;
+    background-color: #000022;
     color: white;
     padding: 5px 20px;
     border: none;
@@ -108,5 +114,6 @@ font-size: 22px;
   }
   
   .cta-button:hover {
-    background-color: #333;
+    background-color: rgba(0, 0, 20, 1)
+    ;
   }

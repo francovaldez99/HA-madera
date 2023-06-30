@@ -52,7 +52,7 @@ const ContactMe = () => {
 
   return (
     <>
-      <h2 className='contact-title'>Contactanos</h2>
+      {/* <h2 className='contact-title'>Contactanos</h2> */}
       <div className="contact-container">
         <article className="contact-area-text">
           <div>
@@ -62,7 +62,7 @@ const ContactMe = () => {
             </h2>
           </div>
 
-          <hr />
+        
           <div>
             <h3>
               <AiOutlinePhone /> +54 9 1011121314
@@ -76,7 +76,7 @@ const ContactMe = () => {
           <div>
             <h3>
               
-              <a href="#" target="_blank" rel="noreferrer"><BsWhatsapp />   Contactanos por whatsapp</a>
+              <a href="#" target="_blank" rel="noreferrer" className="cta-button wsp" style={{textAlign:"center"}}><BsWhatsapp />   Contactanos por whatsapp</a>
             </h3>
           </div>
         </article>

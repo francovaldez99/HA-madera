@@ -1,61 +1,23 @@
 .productos {
-  margin: 5px 0px;
+  /* margin: 5px 10px; */
+
+min-height: 90vh;
+object-fit: cover;
+padding: 20px 0px;
+display: flex;
+flex-direction: column;
+background-color: rgba(255, 165, 0, 0.68);
+color:black ;
+}
+.productos p,h2{
   text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 
 }
 
-.images-products {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-padding-left: 5px;
-  width: 600px;
-  max-height: 600px;
-}
-.image-main-product {
-  width: 100%;
-  height: 450px;
-  object-fit: contain;
-}
-.list-image-products {
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-.image-from-list-product {
-  height: 90px;
-  width: 100px;
-  object-fit: cover;
-  cursor: pointer;
+#conoce-nuestro-trabajo{
+  margin: 0 auto;
   text-align: center;
-  margin: 0 5px;
-}
-.text-products {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
- max-width: 600px; 
- max-height: 600px;
-
-}
-.productos-title {
-  text-align: center;
-  margin: 15px auto;
-  font-size: 45px;
-  font-weight: bold;
-}
-.productos-text {
+  padding: 20px 30px;
   font-size: 25px;
-  max-width: 500px;
-  margin: 20px 0;
-
+  
 }

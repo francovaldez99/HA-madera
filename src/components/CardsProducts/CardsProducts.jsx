@@ -6,6 +6,9 @@ import ImageSlider from "../Slider 2/ImageSlider"
 import img1 from "../../assets/images/2.jpg"
 import img2 from '../../assets/images/3.jpg'
 import img3 from "../../assets/images/1.jpeg"
+import trabajo1 from "../../assets/images/Trabajo-realizado(1).jpeg"
+import trabajo2 from "../../assets/images/Trabajo-realizado(1)-(2).jpeg"
+
 
 export default function CardsProducts() {
     const [ ShowAll,SetShowAll ] = useState(false);
@@ -20,7 +23,7 @@ export default function CardsProducts() {
     const products = [
         {
             title :"Titulo 1 ",
-            img : img,
+            img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075063/Ha%20Maderas/proyectos-17-1_cj8lbl.jpg",
             content:{
             text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sequi totam vero dolores eum facere reprehenderit quidem excepturi architecto repellendus aliquid ipsam nam veritatis quam voluptatibus quasi, id, dolore quod.",
             images : []
@@ -28,32 +31,32 @@ export default function CardsProducts() {
         },
         {
             title :"Titulo 2 ",
-            img : "img"
+            img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075061/Ha%20Maderas/proyectos-13-1_dr5ugh.jpg"
         },
         {
             title :"Titulo 3 ",
-            img : img
+            img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075061/Ha%20Maderas/proyectos-14-1_wmx44h.jpg"
         },
         {
             title :"Titulo 4 ",
-            img : img
+            img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075062/Ha%20Maderas/proyectos-15-3_icub2c.jpg"
         },
           {
             title :"Titulo 5 ",
-            img : img
+            img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075063/Ha%20Maderas/proyectos-2-1_bzoqfe.jpg"
         },
         ,
           {
             title :"Titulo 6 ",
-            img : img
+            img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-6-1_ayqxjk.jpg"
         },
         {
           title :"Titulo 7",
-          img : img
+          img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075066/Ha%20Maderas/proyectos-12-1_dun39c.jpg"
       },
       {
         title :"Titulo 8",
-        img : img
+        img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075066/Ha%20Maderas/proyectos-9-2_rg1jmr.jpg"
     }
     ]
     const images= [
@@ -70,39 +73,56 @@ export default function CardsProducts() {
         ]
   return (
     <section className='section-cards-products'>
-
+          <h2>Conocé Nuestro trabajo</h2>
                 <div className={`container-product ${ShowAll ? "show-products":""}`}>
                     {products &&
                         products.map((product, index)=> {
                             return (
                             <div className='card-product' key={index}>
-                                    <img src={"https://res.cloudinary.com/dpzlutln3/image/upload/v1686941620/Ha%20Maderas/istockphoto-1452481428-612x612_arzxpl.jpg"} alt={product.title}  className='img-card-product' />
-                                    <h3 className='title-card-product' 
-                                    onClick={handleCardClick}>{product.title}</h3>
+                      
+                              <div className="img-card-product-container"  onClick={handleCardClick}>
+                                    {/* <h3 className='title-card-product' 
+                                   >{product.title}</h3> */}
+                                <img src = {product.img} alt={`${product.title}`} className='img-card-product'/>
+                                </div>
+                                
                                     <Modal 
                                     isOpen={isOpen}
                                     handleModalClose={handleModalClose}>
                                     <div>
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum sunt vero error modi mollitia ipsa debitis enim ab aliquid inventore! Nesciunt labore error harum voluptatum temporibus ducimus numquam, voluptate pariatur!
+                                        <ul>
+                                        <li>Material: [Material de alta calidad]. Esta puerta ofrece durabilidad, resistencia y un aspecto elegante para complementar tu hogar.</li>
 
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem illum deserunt nobis, at eius atque molestias, impedit tempora nostrum hic nihil itaque labore animi fuga architecto maiores minima praesentium dicta!
+<li>Medidas: Disponible en una amplia variedad de tamaños estándar y también ofrecemos opciones de medidas personalizadas para adaptarnos perfectamente a tus necesidades.</li>
+<li>
+  
+  Colores: ¡Elige entre una amplia gama de colores para personalizar tu puerta según tus preferencias y el estilo de tu hogar! Desde tonos clásicos hasta opciones modernas y vibrantes, tenemos el color perfecto para ti.
+</li>
 
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum sint voluptatem enim quod quo molestias corporis possimus ducimus magni. Aperiam voluptatum totam consectetur a quas repudiandae accusantium cum quod suscipit.
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis, nisi ad error cum officiis repellendus consectetur qui quam nobis illum facilis delectus similique porro accusamus placeat ullam quos optio?
-                                        
-                                          
-                                        </p>
+<li>Seguridad: Nuestra puerta está diseñada con características de seguridad adicionales, como [mencionar características específicas], brindándote tranquilidad y protección para tu hogar y seres queridos.</li>
+
+<li>Resistencia a las condiciones climáticas: Esta puerta está construida para resistir las inclemencias del tiempo, garantizando su durabilidad y manteniendo su aspecto impecable incluso en condiciones adversas.</li>
+
+<li>Fácil instalación: Con instrucciones claras y un diseño pensado para facilitar la instalación, nuestra puerta se puede montar rápidamente sin complicaciones.</li>
+
+<li>Mantenimiento sencillo: Nuestra puerta de [material] es fácil de limpiar y mantener. Con un simple cuidado regular, se mantendrá en excelentes condiciones durante mucho tiempo.</li>
+
+<li>Versatilidad: Ideal para diversas áreas de tu hogar, ya sea la entrada principal, patio, balcón u otras zonas. Esta puerta se adapta perfectamente a diferentes espacios y estilos de decoración.</li>
+
+                                        </ul>
                                         <button className='cta-button'>
                                             Consultar disponibilidad
                                         </button>
-                                        <ImageSlider slides={images}/>
+                                        {/* <ImageSlider slides={images}/> */}
 
-                                    </div></Modal>
+                                    </div>
+                                    </Modal>
                                 </div>)
                         })
                     }
+                    
                 </div>       
-                    <button className='cta-button' id='button-mostrar-mas' onClick={()=>SetShowAll(!ShowAll)} >{ShowAll ? "Mostrar Menos!":"Mostrar Mas!"}</button>
+                
     </section>
   )
 }

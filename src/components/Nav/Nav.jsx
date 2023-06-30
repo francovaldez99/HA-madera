@@ -15,10 +15,12 @@ function Nav() {
             <button className='nav-btn nav-close-btn' onClick={changeStatusOpen}>
                 <FaTimes/>
             </button>
-                <a href="#inicio" className='nav-item'  onClick={changeStatusOpen}>Inicio</a>
+                {/* <a href="#inicio" className='nav-item'  onClick={changeStatusOpen}>Inicio</a> */}
                 <a href="#productos" className='nav-item'  onClick={changeStatusOpen}>Productos</a>
+                <a href="#contactanos" className='nav-item '  onClick={changeStatusOpen}>Nuestro trabajo</a>
+
                 <a href="#preguntas-frecuentes" className='nav-item'  onClick={changeStatusOpen}>Preguntas Frecuentes</a>
-                <a href="#contactanos" className='nav-item cta-button'  onClick={changeStatusOpen}>Contactanos</a>
+                <a href="#contactanos" className='nav-item'  onClick={changeStatusOpen}>Contactanos</a>
 
             </nav>
 
