@@ -36,7 +36,7 @@
    
 height: auto;
 max-height: 9999px;
-
+background-color: transparent;
 transition:  all 1s cubic-bezier(1,0,1,0);
 
  
