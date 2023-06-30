@@ -110,7 +110,7 @@ export default function CardsProducts() {
 <li>Versatilidad: Ideal para diversas áreas de tu hogar, ya sea la entrada principal, patio, balcón u otras zonas. Esta puerta se adapta perfectamente a diferentes espacios y estilos de decoración.</li>
 
                                         </ul>
-                                        <button className='cta-button'>
+                                        <button className='cta-button' onClick={()=>console.log("anda el botn")}>
                                             Consultar disponibilidad
                                         </button>
                                         {/* <ImageSlider slides={images}/> */}

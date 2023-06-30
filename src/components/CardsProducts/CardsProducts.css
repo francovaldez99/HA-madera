@@ -4,9 +4,11 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
-    /* margin-bottom: 50px; */
 }
+.section-cards-products h2{
+    margin-bottom: 50px;
 
+}
 .container-product{
     display: grid;
     grid-template-columns: repeat(auto-fit,

@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway&display=swap');
+h2,p,a,label{
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+h5{
+  color: #fff;
+}
 
 a{
   text-decoration: none;

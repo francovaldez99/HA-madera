@@ -62,7 +62,7 @@ justify-content: space-between;
   outline: none;
   height: 45px;
   padding: 16px;
-  background-color: rgba(5,7,12,0.4);
+  background-color: rgba(0, 0, 34, .65);
   border: transparent;
 color: #fff;
 }
@@ -73,7 +73,7 @@ color: #fff;
   padding: 16px;
   outline: none;
   border-radius: 5px;
-  background-color: rgba(5,7,12,0.4);
+  background-color: rgba(0, 0, 34, .65);
 border: transparent;
 color: #fff;
 
