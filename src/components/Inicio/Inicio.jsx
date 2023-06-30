@@ -20,7 +20,7 @@ function Inicio() {
                 <h1 className='main-title'>HA Maderas</h1>
                  <h5>PROVISIÓN Y MONTAJES</h5>
               </div>
-              <a className='cta-button inicio-cta-button' id='mas-informacion'>
+              <a className='cta-button inicio-cta-button' id='mas-informacion' href='#contactanos'>
                   ¡ Contactanos !
               </a>
           </article>
