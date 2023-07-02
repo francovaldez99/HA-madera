@@ -21,8 +21,8 @@ const images= [
 },
 {
   url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075066/Ha%20Maderas/proyectos-9-6_f6tncy.jpg",
-  title:"Puerta cortafuego: Mantén la seguridad en todo momento",
-  text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eum nobis quasi consequatur amet eligendi saepe voluptatibus pariatur ducimus, excepturi eveniet vero harum delectus, itaque enim nam asperiores nemo eius!"
+  title:"Zocalos",
+  text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. "
 },
 {
   url:img3,

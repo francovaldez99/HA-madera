@@ -25,7 +25,7 @@ flex-direction: column;
     cursor: pointer;
     user-select: none;
     z-index: 2;
-    color: #000022;
+    color: #f79000;
 }
 .btn:hover{
     transform: scale(0.9);
@@ -66,16 +66,32 @@ text-align: left;
   } */
   .text-box-image-slider{
     position: absolute;
-    top: 50%;
+    top: 20%;
 
-    /* width: 50%; */
-left: 0;
+    width: 50%;
+left: 35px;
 right: 0;
 
+  }
+  .text-box-image-slider p {
+    color: #333;
+  }
+  .text-box-image-slider h2 {
+animation: scale-in-left .5s linear;
 
   }
-
+  @-webkit-keyframes scale-in-left{0%{-webkit-transform:scale(0);transform:scale(0);-webkit-transform-origin:0 50%;transform-origin:0 50%;opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:0 50%;transform-origin:0 50%;opacity:1}}@keyframes scale-in-left{0%{-webkit-transform:scale(0);transform:scale(0);-webkit-transform-origin:0 50%;transform-origin:0 50%;opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:0 50%;transform-origin:0 50%;opacity:1}}
   
+
+  .glass{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
   .slide.active {
 
    opacity: 1;
@@ -104,8 +120,22 @@ color: darkgray;
     
     .image{
       width: 100%;
+      height: 100%;
     }
     .text-box-image-slider{
-      top: 0;
+      position: relative;
+      left: 0;
+      width: 100%;
+      padding: 5px 10px;
+      background-color: rgba(0, 0, 34, .95);
+      min-height: 314px;
+    }
+    .glass{
+      background-color: none;
+      background: none;
+box-shadow: none;
+backdrop-filter:none;
+-webkit-backdrop-filter: none;
+border: none;
     }
   }

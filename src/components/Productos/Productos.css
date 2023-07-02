@@ -6,7 +6,7 @@ object-fit: cover;
 padding: 20px 0px;
 display: flex;
 flex-direction: column;
-background-color:rgba(0, 0, 34, .85);
+background-color: rgba(0, 0, 34, .9);
 color: #f79000;
 
 justify-content: space-around;
