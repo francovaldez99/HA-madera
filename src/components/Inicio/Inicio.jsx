@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Inicio.css"
 import video2 from "../../assets/Diseño sin título.mp4"
-import logo from "../../assets/Logo.svg"
 import {BsWhatsapp} from "react-icons/bs"
 function Inicio() {
  
@@ -25,7 +24,7 @@ function Inicio() {
               </a>
           </article>
           </main>
-          <a className='btn-whatsapp' href='wa.me/595981800114' target='_blank'><BsWhatsapp/></a>
+          <a className='btn-whatsapp' href='https://api.whatsapp.com/send/?phone=595981800114' target="_blank" without rel="noreferrer"><BsWhatsapp/></a>
     </>
   )
 }

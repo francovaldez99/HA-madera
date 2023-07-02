@@ -2,7 +2,6 @@ import React,{useState , useRef } from "react";
 import "./ContactMe.css";
 import { AiOutlinePhone } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
-import {FaCheck} from "react-icons/fa";
 import emailjs from "@emailjs/browser"
 
 function Loader() {
@@ -81,7 +80,7 @@ const ContactMe = () => {
           <div>
             <h3>
               
-              <a href="#" target="_blank" rel="noreferrer" className="cta-button wsp" style={{textAlign:"center"}}><BsWhatsapp />   Contactanos por whatsapp</a>
+              <a  target="_blank" rel="noreferrer" className="cta-button wsp" style={{textAlign:"center"}} href='https://api.whatsapp.com/send/?phone=595981800114'><BsWhatsapp />   Contactanos por whatsapp</a>
             </h3>
           </div>
         </article>
@@ -103,7 +102,7 @@ const ContactMe = () => {
           </div>
           <button className="cta-button" type="submit">{Clicked ? <Loader/> :"Enviar"}</button>
           <div>
-          {/* <h3 className="mensaje-click"><FaCheck/>Email enviado</h3> */}
+          
         </div>
         </form>
         

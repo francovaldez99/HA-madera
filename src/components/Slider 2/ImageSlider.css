@@ -67,8 +67,12 @@ text-align: left;
   .text-box-image-slider{
     position: absolute;
     top: 50%;
+
     /* width: 50%; */
-    margin: 0 auto;
+left: 0;
+right: 0;
+
+
   }
 
   
@@ -102,6 +106,6 @@ color: darkgray;
       width: 100%;
     }
     .text-box-image-slider{
-      top: 20%;
+      top: 0;
     }
   }

@@ -1,4 +1,4 @@
-import React, {  useState , useEffect } from 'react'
+import React, {  useState  } from 'react'
 import "./ImageSlider.css"
 import {IoIosArrowForward,IoIosArrowBack} from "react-icons/io"
 
@@ -24,15 +24,18 @@ function ImageSlider({slides}) {
       { slides &&
         slides.map((image,index)=>{
           return (
-          <div
-            className={index === CurrentIndex ? 'slide active' : 'slide'}
-              key={index}>
-           { <img src={image.url} className='image' alt={`img - ${index+1}`} style={{display:`${ index ===CurrentIndex ? "block":"none"}`}}/>}
-            <div className='text-box-image-slider'  style={{display:`${ index ===CurrentIndex ? "block":"none"}`}}>
-                <h2>{image.title}</h2>
-                <p>{image.text}</p>
+          <div>
+            <div
+              className={index === CurrentIndex ? 'slide active' : 'slide'}
+                key={index}>
+             { <img src={image.url} className='image' alt={`img - ${index+1}`} style={{display:`${ index ===CurrentIndex ? "block":"none"}`}}/>}
             </div>
-          </div>)
+              <div className='text-box-image-slider'  style={{display:`${ index ===CurrentIndex ? "block":"none"}`}}>
+                  <h2>{image.title}</h2>
+                  {/* <p>{image.text}</p> */}
+              </div>
+          </div>
+          )
         })
       }
       

@@ -15,23 +15,23 @@ const images= [
 
 {
   url:img1,
-  title:"Titulo 1",
+  title:"Puerta de seguridad reforzada: Protege tu hogar con estilo",
   text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eum nobis quasi consequatur amet eligendi saepe voluptatibus pariatur ducimus, excepturi eveniet vero harum delectus, itaque enim nam asperiores nemo eius!"
   
 },
 {
   url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075066/Ha%20Maderas/proyectos-9-6_f6tncy.jpg",
-  title:"Titulo 2",
+  title:"Puerta cortafuego: Mantén la seguridad en todo momento",
   text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eum nobis quasi consequatur amet eligendi saepe voluptatibus pariatur ducimus, excepturi eveniet vero harum delectus, itaque enim nam asperiores nemo eius!"
 },
 {
   url:img3,
-  title:"Titulo 3",
+  title:"Puerta acústica: Privacidad y confort en un solo producto",
   text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eum nobis quasi consequatur amet eligendi saepe voluptatibus pariatur ducimus, excepturi eveniet vero harum delectus, itaque enim nam asperiores nemo eius!"
 },
 {
   url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075064/Ha%20Maderas/proyectos-11-1_x1opna.jpg",
-  title:"Titulo 4",
+  title:"Puerta corredera de cristal: Modernidad y luminosidad en tus espacios",
   text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eum nobis quasi consequatur amet eligendi saepe voluptatibus pariatur ducimus, excepturi eveniet vero harum delectus, itaque enim nam asperiores nemo eius!"
 }
 ]
@@ -41,9 +41,9 @@ const images= [
   return (
     <section className='productos' id='productos'>
      <h2 className='productos-title' >NUESTROS PRODUCTOS</h2>
-
+{/* 
     <p className='main-text'><strong> Explora nuestra amplia gama de opciones en blanco, beige, gris, negro e incluso en elegantes patrones de madera.<br />¡Encuentra la puerta ideal para tu espacio hoy mismo!</strong>
-              </p>
+              </p> */}
     
      <ImageSlider slides = {images}/>
 

@@ -1,33 +1,23 @@
 import React,{useState} from 'react'
 import "./CardsProducts.css"
-import img from "../../assets/images/3.jpg"
 import Modal from '../Modal/Modal';
-import ImageSlider from "../Slider 2/ImageSlider"
-import img1 from "../../assets/images/2.jpg"
-import img2 from '../../assets/images/3.jpg'
-import img3 from "../../assets/images/1.jpeg"
-import trabajo1 from "../../assets/images/Trabajo-realizado(1).jpeg"
-import trabajo2 from "../../assets/images/Trabajo-realizado(1)-(2).jpeg"
 
 
 export default function CardsProducts() {
-    const [ ShowAll,SetShowAll ] = useState(false);
+
     const [isOpen, SetIsOpen] = useState(false);
     const handleCardClick = () => {
         SetIsOpen(true);
       };
     
       const handleModalClose = () => {
-        SetIsOpen(false);
+        SetIsOpen(false)
       };
-    const products = [
-        {
+
+    const products = [{
             title :"Titulo 1 ",
             img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075063/Ha%20Maderas/proyectos-17-1_cj8lbl.jpg",
-            content:{
-            text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sequi totam vero dolores eum facere reprehenderit quidem excepturi architecto repellendus aliquid ipsam nam veritatis quam voluptatibus quasi, id, dolore quod.",
-            images : []
-            }
+      
         },
         {
             title :"Titulo 2 ",
@@ -45,7 +35,7 @@ export default function CardsProducts() {
             title :"Titulo 5 ",
             img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075063/Ha%20Maderas/proyectos-2-1_bzoqfe.jpg"
         },
-        ,
+        
           {
             title :"Titulo 6 ",
             img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-6-1_ayqxjk.jpg"
@@ -59,22 +49,11 @@ export default function CardsProducts() {
         img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075066/Ha%20Maderas/proyectos-9-2_rg1jmr.jpg"
     }
     ]
-    const images= [
 
-        {
-          url:img1
-        },
-        {
-          url:img2
-        },
-        {
-          url:img3
-        }
-        ]
   return (
     <section className='section-cards-products'>
           <h2 id='nuestro-trabajo'>Conocé Nuestro trabajo</h2>
-                <div className={`container-product ${ShowAll ? "show-products":""}`}>
+                <div className={`container-product `}>
                     {products &&
                         products.map((product, index)=> {
                             return (

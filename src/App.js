@@ -5,8 +5,7 @@ import Nav from "./components/Nav/Nav";
 import PreguntasFrecuentes from "./components/PreguntasFrecuentes/PreguntasFrecuentes";
 import Productos from "./components/Productos/Productos";
 import ContactMe from "./components/Contactame/ContactMe"
-import video from "./assets/pexels_videos_2108274 (1080p).mp4"
-import ImageSlider from "./components/Slider 2/ImageSlider";
+
 
 function App() {
   return (

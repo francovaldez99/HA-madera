@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import "./Modal.css";
 import { GrClose } from "react-icons/gr";
 

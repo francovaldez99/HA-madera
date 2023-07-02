@@ -14,6 +14,7 @@ justify-content: space-around;
 .productos h2{
   text-align: center;
   color: #f79000;
+  margin: 40px 0;
 }
 .productos p {
   color: #ffff;
