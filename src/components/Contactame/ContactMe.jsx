@@ -27,17 +27,22 @@ function Loader() {
 }
 
 const ContactMe = () => {
-  const form = useRef();
-  const YOUR_SERVICE_ID = "service_0cy3txx"
-  const YOUR_TEMPLATE_ID ="template_ntbsjlh"
-  const YOUR_PUBLIC_KEY ="ohdrvXvszeQhWCl7I"
   const [Clicked, SetClicked] = useState(false)
+  const form = useRef();
+  const YOUR_SERVICE_ID = process.env.REACT_APP_YOUR_SERVICE_ID;
+  const YOUR_TEMPLATE_ID =process.env.REACT_APP_YOUR_TEMPLATE_ID;
+  const YOUR_PUBLIC_KEY = process.env.REACT_APP_YOUR_PUBLIC_KEY;
+
   const handlerSubmit = (e)=>{
     e.preventDefault()
     SetClicked(true)
     setTimeout(() => {
       SetClicked(false)
     }, 1000);
+    if (!YOUR_PUBLIC_KEY || !YOUR_SERVICE_ID || !YOUR_TEMPLATE_ID) {
+      console.log("variable de entorno no encontrado");
+    return;
+    }
     emailjs.sendForm(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, form.current, YOUR_PUBLIC_KEY)
     .then((result) => {
         console.log(result.text);
@@ -88,7 +93,7 @@ const ContactMe = () => {
             <input type="text" id="nombre" name="user_name" required/>
           </div>
           <div>
-            <label htmlFor="email">email</label>
+            <label htmlFor="email">Email</label>
             <input type="email" id="email"  name="user_email" required/>
           </div>
 

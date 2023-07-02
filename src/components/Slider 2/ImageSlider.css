@@ -48,13 +48,29 @@ width: 100%;
   object-fit: contain;
   margin: 0 auto;
   text-align: center;
+  
  } 
+
  .slide {
     opacity: 0.8;
 transition: 1s;
 text-align: left;
 /* transform: translateX(-100vw); */
   }
+  /* .slide::before{
+    inset: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, .22);
+    position: absolute;
+    z-index: 1;
+  } */
+  .text-box-image-slider{
+    position: absolute;
+    top: 50%;
+    /* width: 50%; */
+    margin: 0 auto;
+  }
+
   
   .slide.active {
 
@@ -85,5 +101,7 @@ color: darkgray;
     .image{
       width: 100%;
     }
-
+    .text-box-image-slider{
+      top: 20%;
+    }
   }

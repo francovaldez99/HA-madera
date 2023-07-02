@@ -26,6 +26,10 @@ margin-bottom: 50px;
     align-items: center;
 
 }
+.inicio-text-container h5 {
+    font-size: 25px;
+    text-align: center;
+}
 .video-container::before{
     top: 0;
     bottom: 0;
@@ -40,7 +44,7 @@ margin-bottom: 50px;
     z-index: 0;
 }
 .main-title{
-    font-size: 32px;
+    font-size: 55px;
     color:#fff;
 }
 .main-text{
@@ -68,3 +72,25 @@ text-align: center;
 #mas-informacion:active {
     transform: scale(1.1);
 }
+.btn-whatsapp{
+    position: fixed;
+    bottom: 30px;
+    line-height: 55px;
+    height: 55px;
+    width: 55px;
+    right: 30px;
+    color: #fff;
+    background-color: #0df053;
+    font-size: 30px;
+    display: grid;
+    place-content: center;
+       border-radius: 50px;
+       z-index: 100;
+       box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    }
+    .btn-whatsapp:hover{
+        color:#0df053;
+        background-color: #fff;
+    
+    }

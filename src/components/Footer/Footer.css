@@ -1,0 +1,32 @@
+footer{
+    background-color: rgba(0, 0, 34, .9);
+}
+footer .container{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .container img{
+    cursor: pointer;
+}
+footer hr{
+    height: 4px;
+    background-color: #f79000;
+    border: none;
+
+}
+footer div h4{
+    cursor: pointer;
+}
+footer div h4 a{
+    color: #fff;
+}
+footer div h4 a:hover{
+    color: #efefef;
+    text-decoration: underline;
+}
+footer div h4 a:active{
+    color: #f79000;
+}

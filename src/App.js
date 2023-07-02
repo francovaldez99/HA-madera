@@ -11,13 +11,14 @@ import ImageSlider from "./components/Slider 2/ImageSlider";
 function App() {
   return (
     <div>
+  
       <Nav/>
       <Inicio/>
       <Productos/>
       <CardsProducts/>
       <ContactMe />
       <PreguntasFrecuentes/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

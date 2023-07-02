@@ -2,6 +2,7 @@ import React from 'react'
 import "./Inicio.css"
 import video2 from "../../assets/Diseño sin título.mp4"
 import logo from "../../assets/Logo.svg"
+import {BsWhatsapp} from "react-icons/bs"
 function Inicio() {
  
   return (
@@ -15,7 +16,6 @@ function Inicio() {
          autoPlay muted loop/>
           </div>
           <article className='inicio-text-container'>
-          {/* <img src={logo} height="100%" /> */}
               <div>
                 <h1 className='main-title'>HA Maderas</h1>
                  <h5>PROVISIÓN Y MONTAJES</h5>
@@ -25,6 +25,7 @@ function Inicio() {
               </a>
           </article>
           </main>
+          <a className='btn-whatsapp' href='wa.me/595981800114' target='_blank'><BsWhatsapp/></a>
     </>
   )
 }

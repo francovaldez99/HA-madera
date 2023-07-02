@@ -17,21 +17,21 @@ function ImageSlider({slides}) {
 
    }
 
-  //  useEffect(() => {
-  //    setTimeout(() => {
-  //     nextSlide()
-  //    }, 3000);
-  //  }, [])
-
   return (
     <div className='slider-container'>
 <div className='btn left-button' onClick={prevSlide}><IoIosArrowBack/></div>
 <div className='btn rigth-button' onClick={nextSlide}><IoIosArrowForward/></div>
       { slides &&
         slides.map((image,index)=>{
-          return (<div  className={index === CurrentIndex ? 'slide active' : 'slide'}
-          key={index}>
-           {      index ===CurrentIndex && <img src={image.url} className='image' alt={`img - ${index+1}`}/>}
+          return (
+          <div
+            className={index === CurrentIndex ? 'slide active' : 'slide'}
+              key={index}>
+           { <img src={image.url} className='image' alt={`img - ${index+1}`} style={{display:`${ index ===CurrentIndex ? "block":"none"}`}}/>}
+            <div className='text-box-image-slider'  style={{display:`${ index ===CurrentIndex ? "block":"none"}`}}>
+                <h2>{image.title}</h2>
+                <p>{image.text}</p>
+            </div>
           </div>)
         })
       }

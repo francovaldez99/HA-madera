@@ -1,18 +1,25 @@
 import React from 'react';
-
+import logo from "../../assets/Logo.svg"
+import './Footer.css'
+import {GrFacebook , GrInstagram } from "react-icons/gr"
+import { BsWhatsapp } from "react-icons/bs"
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', color: 'white' }}>
+    <footer >
+      <hr />
       <div className="container">
-        <div className="social-media">
-          <a href="https://example.com"><i className="fab fa-facebook">Facebook</i></a>
-          <a href="https://example.com"><i className="fab fa-twitter">Twiter</i></a>
-          <a href="https://example.com"><i className="fab fa-instagram">Instagram</i></a>
-        </div>
-        <div className="contact-info">
-          <p>Phone: 123-456-7890</p>
-        </div>
+        
+        <img src={logo} height="200px"  alt='logo'/>
+        
+        <h4><a href="https://www.facebook.com/profile.php?id=100092695235913" target='_blank' ><span><GrFacebook/></span> Facebook</a></h4>
+       <h4><a href="https://www.instagram.com/ha.maderas.py/" target='_blank'><span><GrInstagram/></span> Instagram</a></h4>
+       <h4><a href="" target='_blank'><span><BsWhatsapp/></span> Whatsapp</a></h4>
+
+        <h4><a href="#preguntas-frecuentes">Ayuda</a></h4>
+        <h4><a href="#contactanos">Contacto</a></h4>  
+
       </div>
+      
     </footer>
   );
 }

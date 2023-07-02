@@ -1,10 +1,11 @@
 .item{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
     /* padding: 0 5px ; */
     border-radius: 2px;
     margin-bottom: 5px;
-    max-width: 1200px;
+    max-width: 95%;
     min-width: 300px;
+    margin: 0 auto;
 }
 .acordeon-title{
     cursor: pointer;
@@ -16,9 +17,10 @@
     background-color: #fb8500;
     color: #fff;
     height: 70px;
+    border: 1px solid #333;
 }
  .acordeon-title h2 {
-    font-size: 32px;
+    font-size: 28px;
  }   
 .acorden-content{
     
@@ -30,14 +32,19 @@
 .acorden-content p{
     padding:  0 20px;
     color:#fff;
+    line-height: 1.8;
+letter-spacing: 0px;
+word-spacing: 5px;
+text-align: center;
+
 }
 
 .active{
    
 height: auto;
 max-height: 9999px;
-background-color: transparent;
 transition:  all 1s cubic-bezier(1,0,1,0);
+
 
  
 

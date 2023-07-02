@@ -1,6 +1,6 @@
 .preguntas-frecuentes{
     margin: 0 auto;
-    max-width: 800px;
+    /* max-width: 800px; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -10,6 +10,11 @@
 }.preguntas-frecuentes-h2 {
     color: #f79000
 }
-.area-preguntas-frecuentes{
-   background-color:#000022;
+.preguntas-frecuentes p {
+  padding: 5px 10px;
 }
+.area-preguntas-frecuentes{
+  background-color: rgba(0, 0, 34, .9);
+
+/* background-color: #fff; */
+  }

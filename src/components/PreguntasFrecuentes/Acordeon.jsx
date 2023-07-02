@@ -2,7 +2,7 @@ import React,{ useState } from 'react'
 import "./Acordeon.css"
 import {MdOutlineKeyboardArrowUp,MdOutlineKeyboardArrowDown} from "react-icons/md"
 function Acordean({data}) {
-  const [selected , SetSelected]=useState(0)
+  const [selected , SetSelected]=useState(10000)
   return (
     <div className="accordion-container">
       {
