@@ -31,7 +31,7 @@ const images= [
 },
 {
   url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075064/Ha%20Maderas/proyectos-11-1_x1opna.jpg",
-  title:"Puerta corredera de cristal: Modernidad y luminosidad en tus espacios",
+  title:"Puertas macizas externas",
   text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eum nobis quasi consequatur amet eligendi saepe voluptatibus pariatur ducimus, excepturi eveniet vero harum delectus, itaque enim nam asperiores nemo eius!"
 }
 ]

@@ -9,7 +9,7 @@ const Footer = () => {
       <hr />
       <div className="container">
         
-        <img src={logo} height="200px"  alt='logo'/>
+        <img src={logo} height="150px"  alt='logo'/>
         
         <h4><a href="https://www.facebook.com/profile.php?id=100092695235913" target="_blank" without rel="noreferrer"><span><GrFacebook/></span> Facebook</a></h4>
        <h4><a href="https://www.instagram.com/ha.maderas.py/" target="_blank" without rel="noreferrer"><span><GrInstagram/></span> Instagram</a></h4>

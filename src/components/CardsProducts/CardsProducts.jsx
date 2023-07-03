@@ -68,26 +68,28 @@ export default function CardsProducts() {
                                     <Modal 
                                     isOpen={isOpen}
                                     handleModalClose={handleModalClose}>
-                                    <div>
+                                    <div className='contenido-modal-card'>
                                         <ul>
                                         <li>Material: [Material de alta calidad]. Esta puerta ofrece durabilidad, resistencia y un aspecto elegante para complementar tu hogar.</li>
-
+<br />
 <li>Medidas: Disponible en una amplia variedad de tamaños estándar y también ofrecemos opciones de medidas personalizadas para adaptarnos perfectamente a tus necesidades.</li>
+<br />
 <li>
   
   Colores: ¡Elige entre una amplia gama de colores para personalizar tu puerta según tus preferencias y el estilo de tu hogar! Desde tonos clásicos hasta opciones modernas y vibrantes, tenemos el color perfecto para ti.
 </li>
+<br />
 
 <li>Seguridad: Nuestra puerta está diseñada con características de seguridad adicionales, como [mencionar características específicas], brindándote tranquilidad y protección para tu hogar y seres queridos.</li>
-
+<br />
 <li>Resistencia a las condiciones climáticas: Esta puerta está construida para resistir las inclemencias del tiempo, garantizando su durabilidad y manteniendo su aspecto impecable incluso en condiciones adversas.</li>
-
+<br />
 <li>Fácil instalación: Con instrucciones claras y un diseño pensado para facilitar la instalación, nuestra puerta se puede montar rápidamente sin complicaciones.</li>
-
+<br />
 <li>Mantenimiento sencillo: Nuestra puerta de [material] es fácil de limpiar y mantener. Con un simple cuidado regular, se mantendrá en excelentes condiciones durante mucho tiempo.</li>
-
+<br />
 <li>Versatilidad: Ideal para diversas áreas de tu hogar, ya sea la entrada principal, patio, balcón u otras zonas. Esta puerta se adapta perfectamente a diferentes espacios y estilos de decoración.</li>
-
+<br />
                                         </ul>
                                         <button className='cta-button' onClick={()=>console.log("anda el botn")}>
                                             Consultar disponibilidad
