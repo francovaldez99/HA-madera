@@ -30,7 +30,7 @@ function ImageSlider({slides}) {
                 key={index}>
              { <img src={image.url} className='image' alt={`img - ${index+1}`} style={{display:`${ index ===CurrentIndex ? "block":"none"}`}}/>}
               <div className='text-box-image-slider '  style={{display:`${ index ===CurrentIndex ? "block":"none"}`}}>
-                  <h2>{image.title}</h2>
+                  <h3>{image.title}</h3>
                   <p>{image.text}</p>
               </div>
             </div>
@@ -39,7 +39,7 @@ function ImageSlider({slides}) {
         })
       }
       
-      <div className='dots-container' >
+      {/* <div className='dots-container' >
         { slides &&
         slides.map((slide, slideIndex) => (
           <div
@@ -50,7 +50,7 @@ function ImageSlider({slides}) {
             ●
           </div>
         ))}
-      </div>
+      </div> */}
 
     </div>
   )

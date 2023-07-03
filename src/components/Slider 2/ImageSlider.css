@@ -16,7 +16,7 @@ flex-direction: column;
 .btn{
     position: absolute;
     top: 50%;
-    font-size: 45px;
+    font-size: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ flex-direction: column;
     transition: 0.2s;
     cursor: pointer;
     user-select: none;
-    z-index: 2;
+    z-index: 3;
     color: #f79000;
 }
 .btn:hover{
@@ -50,52 +50,48 @@ width: 100%;
   text-align: center;
   
  } 
-
  .slide {
-    opacity: 0.8;
-transition: 1s;
-text-align: left;
-/* transform: translateX(-100vw); */
+   /* opacity: 0.8; */
+   transition: 1s;
+   text-align: left;
+   /* transform: translateX(-100vw); */
+   
   }
-  /* .slide::before{
+  .slide::before{
     inset: 0;
     content: "";
     background-color: rgba(0, 0, 0, .22);
     position: absolute;
     z-index: 1;
-  } */
+    height: 100%;
+    height: 100%;
+  }
   .text-box-image-slider{
     position: absolute;
     top: 20%;
-
+z-index: 2;
     width: 50%;
 left: 35px;
 right: 0;
-
-  }
-  .text-box-image-slider p {
-    color: #333;
-  }
-  .text-box-image-slider h2 {
+/* background-color: #f79000; */
+padding: 5px 10px;
 animation: scale-in-left .5s linear;
 
   }
+  /* .text-box-image-slider p {
+    color: #333;
+  }
+  .text-box-image-slider h3 {
+    color: #000;
+
+  } */
   @-webkit-keyframes scale-in-left{0%{-webkit-transform:scale(0);transform:scale(0);-webkit-transform-origin:0 50%;transform-origin:0 50%;opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:0 50%;transform-origin:0 50%;opacity:1}}@keyframes scale-in-left{0%{-webkit-transform:scale(0);transform:scale(0);-webkit-transform-origin:0 50%;transform-origin:0 50%;opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:0 50%;transform-origin:0 50%;opacity:1}}
   
 
-  .glass{
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.09);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
   .slide.active {
 
    opacity: 1;
-   transition: 1s;
+   transition: .5s;
    text-align: center;
   }
   .dots-container{
@@ -109,6 +105,7 @@ transition: 1s;
 user-select: contain;
 cursor: pointer;
 color: darkgray;
+z-index: 2;
   }
   .dot-active{
     color: hsl(209, 23%, 22%);
