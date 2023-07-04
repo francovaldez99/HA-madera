@@ -8,6 +8,9 @@ footer .container{
     align-items: center;
     flex-wrap: wrap;
 }
+.footer-item{
+    flex: 1 0 140px;
+}
 footer .container img{
     cursor: pointer;
 }

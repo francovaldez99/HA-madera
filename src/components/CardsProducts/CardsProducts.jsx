@@ -46,7 +46,8 @@ export default function CardsProducts() {
               {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075061/Ha%20Maderas/proyectos-1-1_pnmjs9.jpg"},
               {url : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075062/Ha%20Maderas/proyectos-2-2_wzipni.jpg"},
               {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688412127/Ha%20Maderas/2b0de579-1d3a-4444-a5e7-07cf8e37eb06_iqedcx.jpg"},
-              {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688412109/Ha%20Maderas/e9c64d2e-7fd0-4337-85a2-822d30e1fab8_lzoimk.jpg"}
+              {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688412109/Ha%20Maderas/e9c64d2e-7fd0-4337-85a2-822d30e1fab8_lzoimk.jpg"},
+              {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-3-3_vin97q.jpg"}
 
            
             ]
@@ -91,6 +92,22 @@ export default function CardsProducts() {
       images:[
         {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075063/Ha%20Maderas/proyectos-18-1_qjf7yk.jpg"},
         {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075066/Ha%20Maderas/proyectos-15-4_s7sxp0.jpg"}
+      ]
+    },
+    {
+      img:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075066/Ha%20Maderas/proyectos-8-7_cusvj4.jpg"
+      ,images:[
+        {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075066/Ha%20Maderas/proyectos-8-7_cusvj4.jpg"},
+
+      ]
+    },
+    {
+      img:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075063/Ha%20Maderas/proyectos-5-1_umiipp.jpg",
+      images:[
+        {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075063/Ha%20Maderas/proyectos-5-1_umiipp.jpg"},
+        {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-5-5_dwc9lb.jpg"},
+        {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-5-3_hd0efp.jpg"},
+        {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-5-2_vbrn5f.jpg"}
       ]
     }
     
