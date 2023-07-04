@@ -13,8 +13,8 @@ function ModalImageSlider({slides}) {
     }
   return (
     <div className='slider2-container'>
-<div className='btn left-button' onClick={prevSlide}><IoIosArrowBack/></div>
-<div className='btn rigth-button' onClick={nextSlide}><IoIosArrowForward/></div>
+<div className='btn left-button' onClick={prevSlide} style={{display:`${slides.length>1 ?"block":"none"}`}}><IoIosArrowBack/></div>
+<div className='btn rigth-button' onClick={nextSlide} style={{display:`${slides.length>1 ?"block":"none"}`}}><IoIosArrowForward/></div>
       { slides &&
         slides.map((image,index)=>{
           return (
