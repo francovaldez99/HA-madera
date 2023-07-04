@@ -15,7 +15,7 @@ const Footer = () => {
        <h4 className='footer-item'><a href="https://www.instagram.com/hamaderas.py/" target="_blank" without rel="noreferrer"><span><GrInstagram/></span> Instagram</a></h4>
 
        <h4 className='footer-item'><a  target='_blank' href='https://api.whatsapp.com/send/?phone=595981800114'  without rel="noreferrer"><span><BsWhatsapp/></span> Whatsapp</a></h4>
-        <h4 className='footer-item'><a href="#preguntas-frecuentes" >Ayuda</a></h4>
+        {/* <h4 className='footer-item'><a href="#preguntas-frecuentes" >Ayuda</a></h4> */}
         <h4 className='footer-item'><a href="#contactanos">Contacto</a></h4>  
       </div>
        
