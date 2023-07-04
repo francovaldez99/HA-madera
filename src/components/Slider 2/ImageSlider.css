@@ -61,7 +61,7 @@ width: 100%;
   .slide::before{
     inset: 0;
     content: "";
-    background-color: rgba(0, 0, 0, .09);
+    background-color: rgba(0, 0, 0, .16);
     position: absolute;
     /* z-index: 1; */
     height: 100%;

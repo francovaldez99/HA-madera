@@ -104,5 +104,9 @@ transition: 0.5s;
 }
 .card-product:hover .button-picture{
     color: #f79000;
-
+    transform: scale(1.3);
+}
+.card-product:active .button-picture{
+    color: #f79000;
+    transform: scale(0.8);
 }

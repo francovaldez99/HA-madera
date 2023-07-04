@@ -8,10 +8,7 @@ function ImageSlider({slides}) {
 
    const prevSlide = ()=>{
     SetCurrentIndex(CurrentIndex===0 ? slides.length-1 : CurrentIndex-1)
-   }
-   const goToSlide = (slideIndex) => {
-    SetCurrentIndex(slideIndex);
-  };
+   };
    const nextSlide=()=>{
     SetCurrentIndex(CurrentIndex===slides.length-1 ? 0 : CurrentIndex+1)
 
