@@ -4,7 +4,6 @@ import Modal from '../Modal/Modal';
 import ImageSlider from '../Slider 2/ImageSlider';
 import Card from './Card';
 
-
 export default function CardsProducts() {
 
    

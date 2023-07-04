@@ -71,7 +71,7 @@ bottom: 0;
     z-index: -1;
 }
 
- .card-product:hover .img-card-product{
+ .card-product:hover .button-picture, .card-product:hover .img-card-product{
 transform: scale(1.1);
 /* opacity: 1; */
 
@@ -93,3 +93,16 @@ opacity: 0;
 }
 
 
+.button-picture{
+    font-size: 32px;
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    color: #000022;
+transition: 0.5s;
+
+}
+.card-product:hover .button-picture{
+    color: #f79000;
+
+}

@@ -3,13 +3,17 @@ footer{
 }
 footer .container{
     padding: 30px 20px;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(120px ,1fr)
+    );
+    gap: 20px;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 .footer-item{
-    flex: 1 0 140px;
+ text-align: center;
 }
 footer .container img{
     cursor: pointer;

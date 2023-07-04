@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import Modal from '../Modal/Modal';
 import ImageSlider from '../Slider 2/ImageSlider';
 import ModalImageSlider from '../modalImageSlider/ModalImageSlider';
+import {MdZoomOutMap} from "react-icons/md"
 
 function Card({index,product}) {
     const [isOpen, SetIsOpen] = useState(false);
@@ -18,7 +19,7 @@ function Card({index,product}) {
     <div className="img-card-product-container"  
     onClick={handleCardClick}>
       <img src = {product.img} alt={`${product.title}`} className='img-card-product'/>
-
+<span className='button-picture'><MdZoomOutMap/></span>
       </div>
       {product.images && 
        <Modal 
