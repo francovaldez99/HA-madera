@@ -68,14 +68,14 @@ const ContactMe = () => {
 
         
           <div>
-            <h3>
-              <AiOutlinePhone /> +54 9 1011121314
-            </h3>
           </div>
             <div>
               <h3>
-                <AiOutlinePhone /> +54 9 12345679
+                
               </h3>
+            <h3>
+              <AiOutlinePhone /> +595 981 800114
+            </h3>
             </div>
           <div>
             <h3>
