@@ -55,6 +55,11 @@ export default function CardsProducts() {
           {
             title :"Titulo 6 ",
             img : "https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-6-1_ayqxjk.jpg",
+            images:[
+              {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-6-1_ayqxjk.jpg"},
+              {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-6-3_qthngj.jpg"},
+              {url:"https://res.cloudinary.com/dpzlutln3/image/upload/v1688075067/Ha%20Maderas/proyectos-6-2_ytmhne.jpg"}
+            ]
            
         },
         {
