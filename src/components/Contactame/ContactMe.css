@@ -88,13 +88,13 @@ color: #fff;
   visibility: none;
 }
 .wsp{
-  padding: 15px 16px;
+  padding: 10px .5em;
   background-color: #000022;
 }
 
 @media screen and (max-width: 768px) {
   .wsp{
-    padding: 15px 0;
+  
     background-color: #000022;
     /* width: 80%; */
     font-size: 1em;
