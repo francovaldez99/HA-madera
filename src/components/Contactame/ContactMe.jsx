@@ -74,7 +74,7 @@ const ContactMe = () => {
                 
               </h3>
             <h3>
-              <AiOutlinePhone /> +595 981 800114
+              {/* <AiOutlinePhone /> +595 981 800114 */}
             </h3>
             </div>
           <div>
